@@ -24,5 +24,3 @@ for file in file_name:
         shutil.move(path+file, path+"PNG/" + file)
     elif(".PNG" in file and not os.path.exists(path+"png/" + file)):
         shutil.move(path+file, path+"PNG/" + file)
-    else:
-        print("There are files in this path that were not moved!")
