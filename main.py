@@ -1,6 +1,6 @@
 import os, shutil
 
-path = r"C:/Users/jonat/Desktop/Test/"
+path = r"C:/Users/jonat\Downloads/"
 
 file_name = os.listdir(path);
 
